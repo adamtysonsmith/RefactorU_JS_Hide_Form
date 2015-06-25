@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Hide a Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Hidden Form -->
+   <form id="hidden-form">
+       <label>Bio</label>
+       <textarea id="input-bio"></textarea>
+       <label>Favorite Books</label>
+       <textarea id="input-books"></textarea>
+       <label>Favorite JS Libraries</label>
+       <textarea id="input-libraries"></textarea>
+   </form>
+   
+   <!-- User Profile -->
+    <header>
+        <button id="form-button">show form</button>
+        <img class="user-img" src="http://img1.wikia.nocookie.net/__cb20131219044547/disney/images/b/b6/Rogerpoint.png">
+        <h1 class="user-name">Roger Rabbit</h1>
+
+    </header>
+    
+    <div class="bio">
+       <h2>Bio</h2>
+        <p class="bio-content"></p>
+    </div>
+    <div class="books">
+        <h2>Favorite Books</h2>
+        <p class="books-content"></p>
+    </div>
+    <div class="fav-libraries">
+       <h2>Favorite JS Libraries</h2>
+        <p class="fav-libraries-content"></p>
+    </div>
+    
+    <!-- Include Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="hide.js"></script>
+</body>
+</html>

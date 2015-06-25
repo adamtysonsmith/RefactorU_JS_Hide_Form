@@ -1,0 +1,66 @@
+/* Layout */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+header {
+    width: 50%;
+}
+#hidden-form {
+    display: none;
+}
+#hidden-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+}
+.user-img {
+    width: 125px;
+    height: 125px;
+    float: left;
+    margin: 10px;
+}
+.user-name {
+    padding: 10px 10px 10px 135px;
+}
+.bio, .books, .fav-libraries {
+    width: 50%;
+    padding: 30px;
+    margin: 10px;
+}
+#form-button {
+    float: right;
+    margin-top: 20px;
+    background-color: #ffa9fe;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#form-button:hover {
+    background-color: #ffd5fd;
+    color: black;
+}
+
+/* Style */
+body {
+    background-color: #f0f0f0;
+}
+.user-img {
+    border: 1px solid gray;
+    background-color: white;
+}
+.user-name {
+    font-size:  80px;
+    font-weight: 200;
+}
+.bio, .books, .fav-libraries {
+    border: 2px solid gray;
+    background-color: white;
+}
+
+#hidden-form {
+    width: 50%;
+    padding: 30px;
+    background-color: #ffa9fe;
+}
