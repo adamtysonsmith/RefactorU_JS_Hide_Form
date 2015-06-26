@@ -1,12 +1,11 @@
 /* Layout */
-body {
-    font-family: Helvetica, Arial, sans-serif;
-}
 header {
     width: 50%;
 }
 #hidden-form {
     display: none;
+    width: 50%;
+    padding: 30px;
 }
 #hidden-form textarea {
     display: block;
@@ -31,36 +30,43 @@ header {
 #form-button {
     float: right;
     margin-top: 20px;
-    background-color: #ffa9fe;
     padding: 20px;
-    border: none;
-    border-radius: 5px;
-    color: white;
 }
-#form-button:hover {
-    background-color: #ffd5fd;
-    color: black;
-}
+
+
 
 /* Style */
 body {
+    font-family: Helvetica, Arial, sans-serif;
     background-color: #f0f0f0;
 }
 .user-img {
-    border: 1px solid gray;
+    box-shadow: 5px 5px gray;
     background-color: white;
+    border-radius: 10px;
 }
 .user-name {
     font-size:  80px;
     font-weight: 200;
 }
 .bio, .books, .fav-libraries {
-    border: 2px solid gray;
+    border: 1px solid gray;
     background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px gray;
 }
 
 #hidden-form {
-    width: 50%;
-    padding: 30px;
     background-color: #ffa9fe;
+}
+#form-button {
+    background-color: #ffa9fe;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+#form-button:hover {
+    background-color: #ffd5fd;
+    color: black;
 }
